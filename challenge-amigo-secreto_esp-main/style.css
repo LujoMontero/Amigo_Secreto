@@ -42,7 +42,7 @@ body {
 /* Sección de entrada */
 .input-section {
     flex: 60%;
-    background-color: var(--color-secondary);
+    background: linear-gradient( yellow, blue, red);
     border: 1px solid #000;
     border-radius: 64px 64px 0 0;
     display: flex;
@@ -105,6 +105,12 @@ body {
 }
 
 /* Estilos de botón */
+li > button {
+    margin: 10px;
+}
+li{
+    color: white;
+}
 button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
@@ -136,7 +142,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: white;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
